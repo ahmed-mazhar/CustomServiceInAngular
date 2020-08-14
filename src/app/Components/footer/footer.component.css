@@ -1,0 +1,62 @@
+.footer{
+    background-color: rgb(34, 36, 43);
+    display:flex;
+}
+.footer .left{
+    border-right: 1px solid #6a6a6a;
+    margin-top: 70px;
+}
+.footer .left p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height:  2;
+    font-size: 15px;
+    padding-right: 86px;
+}
+.footer .left .btn{
+    background-color: #ff000a;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    vertical-align: middle;
+    padding: 15px 45px;
+}
+
+.footer  .d{
+    margin-top: 150px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+}
+.footer   .d ul{
+    list-style: none;
+    line-height: 2;
+    padding-left: 0;
+    margin-top: 30px;
+    color: #aaa;
+}
+ h1{
+    font-size: 25px;
+    color: beige;
+}
+.footer  .d h5{
+    font-size: 18px;
+}
+.footer .copy{
+    margin-top: 50px;
+}
+.footer .copy p{
+    color: rgb(136, 135, 135);
+    font-size: 12px;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.footer .copy p span{
+    color: rgb(114, 14, 245);
+    font-size:16px;
+    text-transform: uppercase;
+}
+/*end footer*/
+

@@ -1,0 +1,54 @@
+/*-----------------------------services section-----------------------------*/
+.service{
+    background-color: #f9f9f9;
+ }
+ .service .service-item{
+     float: left;
+     width: 50%;
+ }
+.section_header{text-align: left;}
+.section-line{ margin: 0 0 50px 0}
+.service-desc{
+ padding-right: 20px;
+     color: #9999;
+     line-height: 1.5;
+     font-size: 17px;
+     margin-bottom: 20px;
+ }
+ .service-list{ list-style: none}
+ .service-list li{
+     margin-bottom: 10px;
+     color: #999;
+ }
+ .service-list li i{ 
+     border: 1px solid #6195ff;
+     width: 30px;
+     height: 30px;
+     padding:7px ;
+     border-radius: 50%;
+    
+ }
+ .service-image img{width: 100%;}
+ 
+ 
+ 
+ /*----------------------------- end services section-----------------------------*/
+ /*-------------------------number----------------------------*/
+.number_section{
+    position: relative;
+    background-image: url('/assets/Images/background/background2.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    
+    }
+.num-item{
+     width: 25%;
+    float: left;
+    text-align: center;
+}
+.num-item .icon{ color: #6195ff;margin-bottom: 15px;padding-top: 100px;}
+.num-item .num-title{font-weight: bold; font-size: 20px;color: #fff;}
+.num-desc{color:azure;}
+
+/*-------------------------End number----------------------------*/

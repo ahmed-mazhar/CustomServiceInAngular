@@ -1,0 +1,38 @@
+<div class="service pdy">
+    <div class="container">      
+        <div class="section_header">
+        <h2 class="section-title">Testimonials</h2>
+        <span class="section-line"></span>
+        </div>
+    </div>
+    <div class="container" *ngFor="let prod of PrdList; let i=index">
+      <div class="row" >
+            <div class=" col-lg-4 col-md-4 col-sm-12 ">
+                <div class="service-image">
+                    <img src="{{prod.avatar}}"/>
+                    
+                </div>              
+            </div>
+            <div class="  col-lg-8 col-md-8 col-sm-12">          
+               <div class="row">
+                  <div class="section_header">
+                    <h1 class="section-title">{{prod.first_name}}&nbsp;{{prod.last_name}}</h1>
+                    <h2 class="section-title">{{prod.email}}</h2>
+                  </div>
+                  <p class="service-desc">
+                    ahmed mazher kamel  ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel
+                    ahmed mazher kamel  ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel ahmed mazher kamel
+                  </p>
+                </div>
+                
+            </div>
+     </div> 
+      <div class="clearfix"></div>
+    
+    </div>
+    <ul class="service-bollets">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      </ul>

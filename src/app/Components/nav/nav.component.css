@@ -1,0 +1,11 @@
+.logo
+ { 
+    font-size: 25px;
+    color: #2860d2;
+ }
+ .navbar-light .navbar-nav .nav-link{ color: #2860d2;}
+ .navbar-light .navbar-nav .active,
+ .navbar-light .navbar-nav .nav-link:hover
+{
+   color: hsl(220, 100%, 69%);
+}

@@ -1,0 +1,59 @@
+.home 
+    { 
+      height:90vh; 
+      background-image:url('/assets/Images/intro-bg.png');
+      background-size:cover;
+      position: relative;
+    }
+.home_content
+    {
+      position: absolute;
+      color:#fff;
+      font-size:1.5em ;
+      line-height: 1.5;
+      top:15%;
+    }
+ h1 .underline{color: #6195ff;}
+.btn
+    { 
+      min-width:160px; 
+      padding:15px 0; 
+      border-radius:28px;  
+      cursor:pointer; 
+      font-size:18px;
+    }
+.btn-start
+    { 
+      background-color:#6195ff;
+      margin-right:10px;
+    }
+.btn-learn
+    {
+      color:#fff;
+      border:2px solid #fff;
+    }
+ .btn:hover{background-color: cornflowerblue;}
+  @media screen and (min-width:401px) and (max-width:768px)
+  {  
+   h1
+     {
+      font-size:50px ;
+      line-height: 1.2;
+     }
+     home 
+     { 
+      background-image:url('/assets/Images/intro-bg-sm.png');
+     }
+  }
+  @media screen and (max-width:400px)
+  {
+   h1
+    {
+      font-size:28px ;
+      line-height: 1.1;
+    }
+  .home 
+    {
+    background-image:url('/assets/Images/intro-bg-sm.png');
+    }
+  }

@@ -1,0 +1,34 @@
+/*------------------------About---------------------*/
+.About_section .container .About-content .About-item{
+    width:30%;
+    float: left;
+    text-align: center;
+    border:  1px solid #888;
+    padding: 50px 20px;
+ }
+.About-item:hover .About-item-title{color: azure}
+
+.icon{
+    margin-bottom: 10px;
+    color: #6195ff;
+    margin-top:50px;
+}
+.About-item-title{
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  transition: color .5s;
+}
+.About-item-desc{
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #8899;
+}
+
+.About_section .container .About-content .About-item .About-item-link{
+  color: #6195ff;
+  text-transform: capitalize;
+  
+}
+@media screen and (min-width:200px) and (max-width:768px){
+  .desc-offer{font-size: 12px;}
+}

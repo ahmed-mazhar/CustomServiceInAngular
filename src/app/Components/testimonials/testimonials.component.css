@@ -1,0 +1,46 @@
+/*-----------------------------services section-----------------------------*/
+.service{
+    background-color: #d4eef1;
+ }
+ .service .service-item{
+     float: left;
+     width: 50%;
+ }
+ .service-list{ list-style: none}
+ .service-list li{
+     margin-bottom: 10px;
+     color: #999;
+ }
+ .service-list li i{ 
+     border: 1px solid #6195ff;
+     width: 30px;
+     height: 30px;
+     padding:7px ;
+     border-radius: 50%;
+    
+ }
+ .service-image img{
+    width: 40%;
+    height: 19vh;
+    margin-left: 60%;
+    margin-top: 10%;
+    border-radius: 50%;
+ }
+
+ /*----------------------------- end testimonials section-----------------------------*/
+ @media screen and (min-width:200px) and (max-width:768px){
+
+    .service-image img{
+       
+        margin-left: 33%;
+        height: 22vh;
+        width: 35%;
+     }
+     .section-title{
+         font-size: 17px;
+         text-align: center;
+     }
+     .section_header{
+         margin: auto;
+     }
+ }
