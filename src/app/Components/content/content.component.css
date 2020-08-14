@@ -1,7 +1,7 @@
 .home 
     { 
       height:90vh; 
-      background-image:url('/assets/Images/intro-bg.png');
+      background-image:url('assets/Images/intro-bg.png');
       background-size:cover;
       position: relative;
     }
